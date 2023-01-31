@@ -1,0 +1,10 @@
+node deb-docker1 {
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
+
